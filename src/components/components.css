@@ -1,0 +1,30 @@
+.navbar-items{
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 800;
+  font-size: large;
+}
+.main-heading{
+  font-family: "Kodchasan", sans-serif;
+  font-size: 58px;
+  font-weight: 900;
+}
+a:hover{
+  color: red;
+}
+#main-span:hover{
+  color: red;
+}
+.works-heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 7.5vh;
+  font-weight: 300;
+}
+#footer-heading{
+  font-family: 'K2D', sans-serif;
+  font-size: medium;
+  font-weight: 400;
+  position: absolute;
+  top: 30px;
+  left: 90px;
+}

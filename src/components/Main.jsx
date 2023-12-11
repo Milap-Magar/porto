@@ -1,0 +1,20 @@
+import React from 'react'
+import  main_image from "../assets/dog.jpg";
+import "./components.css"
+
+const Main = () => {
+  return (
+    <>
+        <div className='main-section relative h-screen w-full'>
+            <figure className='absolute right-6 top-[475px] sm:top-[350px] sm:right-16 md:top-0 md:right-5'>
+                <img className='h-[65vh] w-[80vw] sm:w-[65vw] sm:h-[75vh] md:h-[80vh] md:w-[30vw]' src={main_image} alt="main_image" />
+            </figure>
+              <article className='main-heading w-full md:w-[60vw] absolute top-20 md:top-36 left-10'>
+                <h1>Hiee! I am Milap Magar and a <span id='main-span'>Frontend Developer</span></h1>
+              </article>
+        </div>
+    </>
+  )
+}
+  
+export default Main
