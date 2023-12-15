@@ -3,16 +3,14 @@
   font-weight: 800;
   font-size: large;
 }
-.main-heading{
-  font-family: "Kodchasan", sans-serif;
-  font-size: 58px;
-  font-weight: 900;
-}
 a:hover{
   color: red;
 }
 #main-span:hover{
   color: red;
+}
+.btn-nav{
+  display: none;
 }
 .works-heading{
   font-family: 'Times New Roman', Times, serif;

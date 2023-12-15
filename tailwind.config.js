@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily:{
+      'kod' : ["Kodchasan", "sans-serif"],
+
+    },
     extend: {},
   },
   plugins: [],

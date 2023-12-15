@@ -1,7 +1,11 @@
+import { useState } from "react";
 import image from "../assets/Logo.svg";
 import "./components.css";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
+  const [Sidebar, setSidebar] = useState(false);
+
   return (
     <>
       <div className="navbar-section relative w-full h-28">
@@ -29,6 +33,9 @@ const Navbar = () => {
               <a href="/contact">Contact</a>
             </li>
           </ul>
+          <button className="btn-nav">
+            {Sidebar ? <FaTimes /> : <FaBars />}
+          </button>
         </div>
       </div>
     </>
