@@ -1,10 +1,10 @@
-import { useState } from "react";
+// import { useState } from "react";
 import image from "../assets/Logo.svg";
 import "./components.css";
-import { FaBars, FaTimes } from "react-icons/fa";
+// import { FaBars, FaTimes } from "react-icons/fa";
+import Button from "./Button";
 
 const Navbar = () => {
-  const [Sidebar, setSidebar] = useState(false);
 
   return (
     <>
@@ -30,11 +30,11 @@ const Navbar = () => {
               <a href="/about">About</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="#"><Button name="Contact Me" /></a>
             </li>
           </ul>
           <button className="btn-nav">
-            {Sidebar ? <FaTimes /> : <FaBars />}
+            {/* {Sidebar ? <FaTimes /> : <FaBars />} */}
           </button>
         </div>
       </div>

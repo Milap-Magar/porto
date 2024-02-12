@@ -5,11 +5,11 @@ import { Footer } from "./components";
 const App = () => {
   return (
     <>
-        <Homepage />
-        <Works />
-        <About />
-        <Contact />
-        <Footer />
+      <Homepage />
+      <Works />
+      <About />
+      <Contact />
+      <Footer />
     </>
   );
 };
