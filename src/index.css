@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body 
-{
-    width: auto; 
-    overflow-x: hidden;
+html,
+body {
+  width: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  transition: opacity 1s, transform 1s;
 }
