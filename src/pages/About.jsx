@@ -1,10 +1,11 @@
 import React from 'react'
+import {Line} from "../components";
 
 const About = () => {
   return (
     <>
       <div className="about-section w-full h-screen bg-red-300">
-        ABOUT PAGE AND METHODS
+        <Line heading="About" />
       </div>
     </>
   )
