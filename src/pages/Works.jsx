@@ -1,6 +1,6 @@
 import React from "react";
-import "../components/components.css";
-import {Line} from "../components";
+import "../components/css/components.css";
+import {Line} from "../components/jsx";
 
 const Works = () => {
   return (

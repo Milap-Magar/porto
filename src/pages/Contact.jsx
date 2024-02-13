@@ -1,5 +1,5 @@
 import React from "react";
-import { Line } from "../components";
+import { Line } from "../components/jsx";
 
 const Contact = () => {
   return (

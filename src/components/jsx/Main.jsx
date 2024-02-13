@@ -1,7 +1,7 @@
 // Import necessary libraries and assets
 import React from "react";
-import main_image from "../assets/dog.jpg";
-import Button from "../components/Button";
+import main_image from "../../assets/dog.jpg";
+import Button from "./Button";
 
 const Main = () => {
   return (

@@ -1,6 +1,6 @@
 // import { useState } from "react";
-import image from "../assets/Logo.svg";
-import "./components.css";
+import image from "../../assets/Logo.svg";
+import "../css/components.css";
 // import { FaBars, FaTimes } from "react-icons/fa";
 import Button from "./Button";
 
