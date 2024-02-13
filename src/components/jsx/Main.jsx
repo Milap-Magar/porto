@@ -9,7 +9,7 @@ const Main = () => {
       <div className="main-section relative h-screen w-full">
         <figure className="absolute right-8 top-[475px] sm:top-[350px] sm:right-16 md:top-0 md:right-5">
           <img
-            className="h-[65vh] w-[80vw] sm:w-[65vw] sm:h-[75vh] md:h-[80vh] md:w-[30vw]"
+            className="h-[55vh] w-[80vw] sm:w-[65vw] sm:h-[75vh] md:h-[80vh] md:w-[30vw]"
             src={main_image}
             alt="main_image"
           />

@@ -1,7 +1,5 @@
-// import { useState } from "react";
 import image from "../../assets/Logo.svg";
 import "../css/components.css";
-// import { FaBars, FaTimes } from "react-icons/fa";
 import Button from "./Button";
 
 const Navbar = () => {
@@ -13,7 +11,7 @@ const Navbar = () => {
             <img src={image} alt="Logo image" className="h-16 w-16" />
           </a>
         </figure>
-        <div className="navbar-items absolute top-7 right-10">
+        <div className="navbar-items absolute top-7 right-64">
           <ul className="list-items flex justify-center items-center gap-8">
             <li>
               <a href="/">Home</a>
@@ -24,15 +22,7 @@ const Navbar = () => {
             <li>
               <a href="#about">About</a>
             </li>
-            <li>
-              <a href="#contact">
-                <Button name="Contact Me" />
-              </a>
-            </li>
           </ul>
-          {/* <button className="btn-nav"> */}
-          {/* {Sidebar ? <FaTimes /> : <FaBars />} */}
-          {/* </button> */}
         </div>
       </div>
     </>
