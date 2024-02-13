@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="footer-section w-full h-[120px] relative">
+      <div className="footer-section w-full h-[120px] relative bg-slate-300">
         <figure className="logo-section">
           <img
             src={image}
