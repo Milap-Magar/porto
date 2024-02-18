@@ -1,5 +1,5 @@
 import React from "react";
-import { Line, Input } from "../components/jsx";
+import { Line } from "../components/jsx";
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <div id="about">
         <div className="about-section w-full h-screen bg-inherit">
           <Line heading="About" />
-          <Input value="Name" />
+          {/* <Input value="Name" /> */}
         </div>
       </div>
     </>
