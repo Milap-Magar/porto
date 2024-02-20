@@ -12,7 +12,7 @@ const Card = (props) => {
           {props.heading}
         </h1>
         <p className="text-xs lg:text-sm font-kod">{props.desc}</p>
-        <NewButton />
+        <NewButton value="View Project" />
       </div>
     </div>
   );

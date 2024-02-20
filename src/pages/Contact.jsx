@@ -1,18 +1,19 @@
 import React from "react";
-import { Line, Input } from "../components/jsx";
+import { Line, Input, NewButton } from "../components/jsx";
 
 const Contact = () => {
   return (
     <>
       <div id="contact">
-        <div className="content-section bg-inherit w-full md:h-[500px] h-[800px]">
+        <div className="content-section bg-inherit w-full md:h-[500px] h-[900px]">
           <Line heading="Contact" />
           <div className="relative">
             <div className="absolute top-[500px] left-[25%] md:top-28 md:left-[50%] ">
-              <Input value="Name"  />
-              <Input value="Email"  />
-              <Input value="Address"  />
-              <Input value="Message"  />
+              <Input value="Name" />
+              <Input value="Email" />
+              <Input value="Address" />
+              <Input value="Message" />
+              <NewButton value="Submit" />
             </div>
           </div>
         </div>
