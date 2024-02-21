@@ -2,6 +2,10 @@ import React from "react";
 import { Line, Input, NewButton } from "../components/jsx";
 
 const Contact = () => {
+  const handleSubmit = () => {
+    // Your submit logic here
+    console.log("Form submitted!");
+  };
   return (
     <>
       <div id="contact">
@@ -13,7 +17,7 @@ const Contact = () => {
               <Input value="Email" />
               <Input value="Address" />
               <Input value="Message" />
-              <NewButton value="Submit" />
+              <NewButton value="Submit" onSubmit={handleSubmit} />
             </div>
           </div>
         </div>
