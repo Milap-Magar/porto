@@ -1,1 +1,3 @@
-#Personal Portfolio created via React.Js, TailwindCss, CSS and html <3
+#Personal Porfolio using ReactJs and Tailwindcss
+
+-> npm run start 
