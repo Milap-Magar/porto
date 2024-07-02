@@ -1,5 +1,8 @@
 import React from "react";
-import { Main, Navbar, Button } from "../components/jsx/index";
+import { Main, Navbar, Button, Footer } from "../components/jsx/index";
+import Works from "./Works";
+import About from "./About";
+import Contact from "./Contact";
 
 const HomePage = () => {
   return (
@@ -12,6 +15,10 @@ const HomePage = () => {
           </a>
         </div>
         <Main />
+        <Works />
+        <About />
+        <Contact />
+        <Footer />
       </div>
     </>
   );

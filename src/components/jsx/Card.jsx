@@ -12,7 +12,9 @@ const Card = (props) => {
           {props.heading}
         </h1>
         <p className="text-xs lg:text-sm font-kod">{props.desc}</p>
-        <NewButton value="View Project" />
+        <a href={props.link} target="_blank">
+          <NewButton value="View Project" />
+        </a>
       </div>
     </div>
   );
