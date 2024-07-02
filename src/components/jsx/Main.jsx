@@ -16,7 +16,8 @@ const Main = () => {
         </figure>
         <article className="main-heading w-[80vw] md:w-[60vw] absolute top-20 md:top-36 left-10 font-kod font-medium text-[5.5vh] md:text-[7.5vh]">
           <h1>
-            Hiee! I am Milap Magar and a <Button name="Frontend Developer" />
+            Hiee! I am Milap Magar and I do{" "}
+            <Button name="Frontend Development" />
           </h1>
         </article>
       </div>

@@ -13,7 +13,7 @@ const Works = () => {
   const projects = [
     {
       heading: "Complaint Management System:",
-      desc: "This project uses React and Tailwind CSS for the frontend, Node.js and Express.js for the backend, and MySQL for the database. Providing both admin section and student section.",
+      desc: "This project uses React and Tailwind CSS for the frontend, Node.js and Express.js for the backend, and MySQL for the database.",
       image: img3,
       link: "https://student-cms.netlify.app/",
     },
@@ -81,7 +81,7 @@ const Works = () => {
       {/* Navigation Buttons */}
       <button
         onClick={prevSet}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white rounded-full h-12 w-12 flex items-center justify-center shadow-lg hover:bg-gray-800 transition-colors"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white rounded-full h-12 w-12 md:flex items-center justify-center shadow-lg hover:bg-gray-800 transition-colors hidden"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ const Works = () => {
       </button>
       <button
         onClick={nextSet}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white rounded-full h-12 w-12 flex items-center justify-center shadow-lg hover:bg-gray-800 transition-colors"
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white rounded-full h-12 w-12 md:flex items-center justify-center shadow-lg hover:bg-gray-800 transition-colors hidden"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
