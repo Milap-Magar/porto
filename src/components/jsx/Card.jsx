@@ -3,7 +3,7 @@ import NewButton from "./NewButton";
 
 const Card = (props) => {
   return (
-    <div className="w-[80vw] sm:w-[40vw] md:w-[40vw] lg:w-[28vw] h-[350px] sm:h-[38vh] md:h-[42vh] lg:h-[69vh] bg-slate-200 shadow-xl shadow-amber-200">
+    <div className="w-[80vw] sm:w-[40vw] md:w-[40vw] lg:w-[28vw] h-[350px] sm:h-[38vh] md:h-[42vh] lg:h-[69vh] bg-slate-200 shadow-xl shadow-emerald-300 rounded-xl">
       <figure className="w-full h-[180px]">
         <img src={props.image} alt="project/images" />
       </figure>

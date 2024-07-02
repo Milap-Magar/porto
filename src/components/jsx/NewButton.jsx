@@ -4,7 +4,6 @@ import "../css/NewButton.css";
 
 const NewButton = (props) => {
   const handleClick = () => {
-    // Call the onSubmit or handleSubmit function passed as a prop
     if (props.onSubmit) {
       props.onSubmit();
     }
