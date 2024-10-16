@@ -5,6 +5,7 @@ export default {
   theme: {
     fontFamily: {
       kod: ["Kodchasan", "sans-serif"],
+      cross: ["Croissant One", "serif"],
     },
     extend: {
       colors: {

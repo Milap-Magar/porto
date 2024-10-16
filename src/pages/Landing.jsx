@@ -13,7 +13,6 @@ const Landing = () => {
         <Works />
         <About />
         <Contact />
-        {/* <Footer /> */}
       </div>
     </>
   );

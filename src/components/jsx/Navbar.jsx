@@ -7,7 +7,7 @@ import Button from "./Button";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar-section relative w-full h-16 flex items-center justify-center ">
+      <div className="navbar-section relative w-full h-10 p-16 flex items-center justify-center ">
         <figure className="logo">
           <a href="/">
             <img
