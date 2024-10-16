@@ -1,8 +1,5 @@
-import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import image from "../../../public/logo1.svg";
-import "../css/components.css";
-import Button from "./Button";
+import image from "../../../../public/logo1.svg";
+import "../../css/components.css";
 
 const Navbar = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { Main, Navbar } from "../components/jsx/index";
+import { BNavbar, Main, Navbar } from "../components/jsx/index";
 import Works from "./Works";
 import About from "./About";
 import Contact from "./Contact";
@@ -13,6 +13,7 @@ const Landing = () => {
         <Works />
         <About />
         <Contact />
+        <BNavbar />
       </div>
     </>
   );

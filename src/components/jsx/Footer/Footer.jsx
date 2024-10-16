@@ -1,8 +1,8 @@
 import React from "react";
 import { FaLinkedin, FaFacebook, FaGithubSquare } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import image from "../../assets/Logo.svg";
-import "../css/components.css";
+import image from "../../../assets/Logo.svg";
+import "../../css/components.css";
 
 const Footer = () => {
   // const emailLink = "mailto:milapmagar12@gmail.com";
