@@ -4,10 +4,10 @@ import "../css/components.css";
 const Line = (props) => {
   return (
     <div className="relative">
-      <div className="works-heading absolute md:text-5xl text-4xl top-[274px] left-12 md:top-0">
+      <div className="works-heading absolute text-4xl top-0 left-4">
         {props.heading}{" "}
       </div>
-      <div className="bg-black rounded-lg h-[0.2vh] w-[95%] absolute top-[350px] md:top-[90px] left-4"></div>
+      <div className="bg-black rounded-lg h-[0.2vh] w-[120px] absolute top-10 left-4"></div>
     </div>
   );
 };

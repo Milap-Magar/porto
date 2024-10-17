@@ -9,10 +9,10 @@ const Landing = () => {
     <>
       <div className="relative">
         <Navbar />
-        <Main />
-        <Works />
-        <About />
-        <Contact />
+        {/* <Main /> */}
+        {/* <Works /> */}
+        {/* <About /> */}
+        {/* <Contact /> */}
         <BNavbar />
       </div>
     </>

@@ -4,6 +4,9 @@ import HomeIcon from "../../../assets/Home.svg";
 import ContactIcon from "../../../assets/contact1.svg";
 import ProjectIcon from "../../../assets/project1.svg";
 import oval from "../../../assets/transparentCircle.svg";
+import Main from "../Main/Main";
+import Contact from "../../../pages/Contact";
+import Works from "../../../pages/Works";
 
 const BNavbar = () => {
   const [activePage, setActivePage] = useState("home");
@@ -29,44 +32,50 @@ const BNavbar = () => {
         transition={{ duration: 0.5 }}
         className="page-content"
       >
-        {activePage === "home" && <div>Home Page</div>}
-        {activePage === "project" && <div>Project Page</div>}
-        {activePage === "contact" && <div>Contact Page</div>}
+        {activePage === "home" && <div>NO-Page</div>}
+        {activePage === "project" && (
+          <div>
+            <Works />
+          </div>
+        )}
+        {activePage === "contact" && (
+          <div>
+            <Contact />
+          </div>
+        )}
       </motion.div>
 
       <nav className="fixed bottom-0 w-full bg-black h-[72px] flex items-center justify-around z-50 ">
-        <div className="relative flex w-full h-full justify-center gap-16 items-center">
+        <div className="relative flex w-full h-full justify-center gap-[5rem] items-center">
           <motion.div
-            className={`absolute bottom-0 w-[102px] h-[72px]`}
+            className={`absolute bottom-0 w-[98px] h-[72px]`}
             initial={false}
             animate={{
               x:
                 activePage === "home"
-                  ? "-90%"
+                  ? "-109%"
                   : activePage === "project"
                   ? "0%"
-                  : "90%",
+                  : "109%",
             }}
             transition={{ type: "spring", stiffness: 120, damping: 15 }}
             style={{ zIndex: 1 }}
           >
-            {/* Blur Background */}
             <div
-              className="absolute w-[92px] h-[47px] bg-inherit rounded-bl-[920px] rounded-br-[900px] "
+              className="absolute -top-1 w-[92px] h-[50px] bg-white rounded-bl-[920px] rounded-br-[900px] "
               style={{
-                filter: "blur(10px)",
-                zIndex: 0,
+                // filter: "blur(10px)",
+                zIndex: -10,
               }}
             />
 
-            {/* Image with transparent background */}
             <motion.img
               src={oval}
               alt="Oval"
-              className="w-[102px] h-[96px] absolute"
+              className="w-[105px] h-[98px] absolute "
               style={{
                 top: "-46px",
-                backgroundColor: "transparent", 
+                backgroundColor: "transparent",
               }}
             />
           </motion.div>
