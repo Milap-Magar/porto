@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, transform } from "framer-motion";
 import HomeIcon from "../../../assets/Home.svg";
 import ContactIcon from "../../../assets/contact1.svg";
 import ProjectIcon from "../../../assets/project1.svg";
-import oval from "../../../assets/navoval.svg";
+import oval from "../../../assets/transparentCircle.svg";
 
 const BNavbar = () => {
   const [activePage, setActivePage] = useState("home");
@@ -37,7 +37,7 @@ const BNavbar = () => {
       <nav className="fixed bottom-0 w-full bg-black h-[72px] flex items-center justify-around z-50 ">
         <div className="relative flex w-full h-full justify-center gap-16 items-center">
           <motion.div
-            className={`absolute bottom-0 w-[102px] h-[105px]`}
+            className={`absolute bottom-0 w-[102px] h-[72px]`}
             initial={false}
             animate={{
               x:
@@ -50,12 +50,23 @@ const BNavbar = () => {
             transition={{ type: "spring", stiffness: 120, damping: 15 }}
             style={{ zIndex: 1 }}
           >
+            {/* Blur Background */}
+            <div
+              className="absolute w-[92px] h-[47px] bg-inherit rounded-bl-[920px] rounded-br-[900px] "
+              style={{
+                filter: "blur(10px)",
+                zIndex: 0,
+              }}
+            />
+
+            {/* Image with transparent background */}
             <motion.img
               src={oval}
               alt="Oval"
               className="w-[102px] h-[96px] absolute"
               style={{
-                top: "-16px",
+                top: "-46px",
+                backgroundColor: "transparent", 
               }}
             />
           </motion.div>
