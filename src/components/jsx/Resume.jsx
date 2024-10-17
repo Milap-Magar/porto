@@ -5,7 +5,7 @@ import "../css/resume.css";
 const Resume = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "../../../public/resumeIntern.pdf";
+    link.href = "/Resume.pdf";
     link.download = "Resume.pdf";
     document.body.appendChild(link);
     link.click();

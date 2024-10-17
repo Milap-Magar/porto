@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 import HomeIcon from "../../../assets/Home.svg";
 import ContactIcon from "../../../assets/contact1.svg";
 import ProjectIcon from "../../../assets/project1.svg";
 import oval from "../../../assets/transparentCircle.svg";
+
 import Main from "../Main/Main";
-import Contact from "../../../pages/Contact";
-import Works from "../../../pages/Works";
+import {Contact, Works, About} from "../../../pages/";
 
 const BNavbar = () => {
   const [activePage, setActivePage] = useState("home");
@@ -32,7 +32,12 @@ const BNavbar = () => {
         transition={{ duration: 0.5 }}
         className="page-content"
       >
-        {activePage === "home" && <div>NO-Page</div>}
+        {activePage === "home" && (
+          <div>
+            <Main />
+            <About />
+          </div>
+        )}
         {activePage === "project" && (
           <div>
             <Works />
