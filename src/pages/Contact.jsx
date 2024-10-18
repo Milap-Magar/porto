@@ -15,7 +15,7 @@ const Contact = () => {
           <Line heading="Contact" />
           <div className="relative">
             <motion.span
-              className="absolute w-auto top-16 flex justify-center items-center text-start px-6"
+              className="absolute w-auto top-16 flex justify-center items-center text-start px-6 font-kod"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
