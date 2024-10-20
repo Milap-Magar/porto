@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div id="about">
-        <div className="about-section w-full h-auto bg-inherit pt-10">
+        <div className="about-section w-full h-screen bg-inherit pt-10">
           <Line heading="About" />
           <motion.article
             id="article"

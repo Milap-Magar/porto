@@ -1,7 +1,11 @@
+// for desktop view
 export { default as Navbar } from "./Navbar/Navbar";
+export { default as MainDesktop } from "./Main/MainDesktop";
+export { default as Footer } from "./Footer/Footer";
+
+// For Mobile view
 export { default as Main } from "./Main/Main";
 export { default as BNavbar } from "../jsx/Navbar_Mobile/BNavbar";
-export { default as Footer } from "./Footer/Footer";
 
 export { default as Effect } from "./Effect";
 export { default as Card } from "./Card";

@@ -1,15 +1,13 @@
-  import React from "react";
-import { Main, Navbar, Footer } from "../components/jsx/index";
-import Works from "./Works";
-import About from "./About";
-import Contact from "./Contact";
+import React from "react";
+import { Navbar, Footer, MainDesktop } from "../components/jsx/index";
+import { Works, Contact, About } from "./";
 
 const HomePage = () => {
   return (
     <>
       <div className="relative">
         <Navbar />
-        <Main />
+        <MainDesktop />
         <Works />
         <About />
         <Contact />

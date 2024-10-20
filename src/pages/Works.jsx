@@ -24,7 +24,7 @@ const Works = () => {
 
   return (
     <div id="works">
-      <div className="w-full h-auto relative">
+      <div className="w-full h-screen relative">
         <Line heading="Projects" />
         <span className="absolute w-auto top-16 flex justify-center items-center text-start px-6 font-kod">
           Here are some of the projects.

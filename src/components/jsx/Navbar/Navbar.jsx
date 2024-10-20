@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
 import image from "../../../../public/logo1.svg";
 import "../../css/components.css";
@@ -28,11 +27,11 @@ const Navbar = () => {
       <div
         className={
           !navState
-            ? "absolute top-7 left-0 right-0 opacity-100 z-[200 ]w-full h-[10vh]"
+            ? "absolute top-7 left-0 right-0 opacity-100 z-[200]w-full h-[10vh]"
             : "fixed top-0 left-0 right-0 h-[9vh] flex items-center justify-center opacity-90 z-50 blur-effect-theme bg-[#565454] text-white"
         }
       >
-        <nav className="m-auto flex items-start justify-between">
+        <nav className="m-auto flex items-start justify-between font-cross">
           <figure className="logo">
             <a href="#main">
               <img
