@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Landing from "./Landing";
 import HomePage from "./Homepage";
+import Loading from "../components/jsx/Loading/Loading";
 
 const Main = () => {
   const [mobileView, setMobileView] = useState(window.innerWidth < 768);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     function handleResize() {
@@ -11,10 +13,20 @@ const Main = () => {
     }
 
     window.addEventListener("resize", handleResize);
+
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 0);
+
     return () => {
+      clearTimeout(timer);
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   return <>{mobileView ? <Landing /> : <HomePage />}</>;
 };

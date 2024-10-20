@@ -27,8 +27,8 @@ const Navbar = () => {
       <div
         className={
           !navState
-            ? "absolute top-7 left-0 right-0 opacity-100 z-[200]w-full h-[10vh]"
-            : "fixed top-0 left-0 right-0 h-[9vh] flex items-center justify-center opacity-90 z-50 blur-effect-theme bg-[#565454] text-white"
+            ? "absolute top-7 left-0 right-0 opacity-100 z-[200] w-full h-[10vh]"
+            : "fixed top-0 left-0 right-0 h-[9vh] flex items-center justify-center opacity-90 z-50 blur-effect-theme bg-[#aeacac] text-white"
         }
       >
         <nav className="m-auto flex items-start justify-between font-cross">
