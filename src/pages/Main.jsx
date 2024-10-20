@@ -16,7 +16,7 @@ const Main = () => {
 
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 0);
+    }, 3000);
 
     return () => {
       clearTimeout(timer);
