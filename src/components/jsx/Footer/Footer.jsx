@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaFacebook, FaGithubSquare } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import image from "../../../assets/Logo.svg";
+import image from "../../../../public/logo1.svg";
 import "../../css/components.css";
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
           <img
             src={image}
             alt="Logo/Image"
-            className="h-14 w-14 absolute top-4 left-5"
+            className="h-28 w-28 absolute -top-2 left-0"
           />
           <h6 id="footer-heading">©2023 Milap, All rights reserved.</h6>
         </figure>

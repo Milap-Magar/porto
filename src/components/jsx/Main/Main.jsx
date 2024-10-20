@@ -6,7 +6,7 @@ import "../../css/components.css";
 const Main = () => {
   return (
     <>
-      <div className="main-section relative h-[60vh] w-full overflow-hidden">
+      <div id="main" className="main-section relative h-screen w-full overflow-hidden">
         <motion.figure
           className="absolute right-9 top-36"
           initial={{ opacity: 0, x: 50 }}

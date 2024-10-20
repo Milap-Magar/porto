@@ -1,5 +1,5 @@
-import React from "react";
-import { Main, Navbar, Button, Footer } from "../components/jsx/index";
+  import React from "react";
+import { Main, Navbar, Footer } from "../components/jsx/index";
 import Works from "./Works";
 import About from "./About";
 import Contact from "./Contact";
