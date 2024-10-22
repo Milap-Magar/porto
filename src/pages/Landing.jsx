@@ -2,6 +2,7 @@ import React from "react";
 import { BNavbar } from "../components/jsx/index";
 import image from "../../public/logo1.svg";
 import "../components/css/components.css";
+import Sidebar from "../components/jsx/Social/Sidebar";
 
 const Landing = () => {
   return (
@@ -18,6 +19,7 @@ const Landing = () => {
             </a>
           </figure>
         </div>
+        <Sidebar />
         <BNavbar />
       </div>
     </>
