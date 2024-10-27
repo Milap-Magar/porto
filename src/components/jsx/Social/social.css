@@ -69,7 +69,7 @@
 .wrapper .facebook,
 .wrapper .facebook .tooltip,
 .wrapper .facebook:hover .tooltip::before {
-  background: #2e82f0;
+  background: #000000;
   color: #fff;
 }
 .wrapper .pinterest,
